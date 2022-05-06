@@ -17,20 +17,24 @@ The goal of this is to fetch metadata associated with an NFT (which requires the
 **Setup**
 
 get the code using
+
 `git clone git@github.com:vikassah/fetchNFTMetaData.git`
 
 intall dependencies by running the following command in the root folder:
+
 `npm install`
 
 Get Alchemy API key for eth mainnet (alchemy is a free service to query blockchain data):
 [Get Alchemy API key](https://medium.com/alchemy-api/getting-started-with-ethereum-development-using-alchemy-c3d6a45c567f)
 
 Create a .env file in the root folder and create an environment variable for ALCHEMY_KEY like this:
+
 `ALCHEMY_KEY=<your key here>`
 
 **Run the code**
 
 Fetch NFT meta data for any NFT contract and token ID by executing the script:
+
 `node fetchNFTMetaData.js <contractAdr> <token id>`
 
 You should see the output on the console.
