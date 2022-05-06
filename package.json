@@ -1,0 +1,15 @@
+{
+  "name": "fetchnftmetadata",
+  "version": "1.0.0",
+  "description": "**How can I read the information associated with a NFT, directly from the blockchain?**",
+  "main": "fetchNFTMetaData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0"
+  }
+}
