@@ -35,7 +35,7 @@ Create a .env file in the root folder and create an environment variable for ALC
 
 Fetch NFT meta data for any NFT contract and token ID by executing the script:
 
-`node fetchNFTMetaData.js <contractAdr> <token id>`
+`node fetchNFTMetaData.js <contract address> <token id>`
 
 You should see the output on the console.
 
